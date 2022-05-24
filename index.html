@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Com este contador podemos escolher o início e fim da contagem e também os passos entre cada contagem.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/calculadora.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Contador</title>
+</head>
+<body>
+    <header>
+        <h1>Vamos contar</h1>
+        <p>Digite um número para o ínicio e um número para o fim da contagem, digite também o passo (por exemplo: se digitar 1 vai contar de 1 em 1, se digitar 2 vai contar de 2 em 2 e assim por diante).</p>
+    </header>
+    <section>
+        <div id="dados">
+          <p>Início: <input type="number" name="inicio" id="txti"></p>
+          <p>Fim: <input type="number" name="fim" id="txtf"></p>
+          <p>Passo: <input type="number" name="passo" id="txtp"></p>
+          <input type="button" value="Contar" class="conta" onclick="contar()">
+        </div>
+        <div id="res">
+            Preparando a contagem...
+        </div>
+    </section>
+    <footer>
+        <p>Criado por Luciano</p>
+    </footer>
+</body>
+</html>
